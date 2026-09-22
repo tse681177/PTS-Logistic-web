@@ -36,7 +36,7 @@ export default function AboutSection() {
         <div className="max-w-3xl mb-10">
           <div className="inline-flex items-center gap-1.5 text-xs text-sky-400 font-semibold mb-2">
             <Building2 className="w-3.5 h-3.5" />
-            <span>{getContent("about_badge", "Бидний тухай")}</span>
+            <span>{getContent("about_badge", "Бидний тухай & Давуу тал")}</span>
           </div>
           <h2 className="text-2xl sm:text-3xl font-bold text-white tracking-tight">
             {getContent("about_title", "Монголын Хүнс, Хөдөө Аж Ахуйн Салбарын Бөөний Түнш")}

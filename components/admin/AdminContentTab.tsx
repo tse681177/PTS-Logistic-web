@@ -250,6 +250,43 @@ export default function AdminContentTab({ onNotification }: AdminContentTabProps
                     <span>4-р үзүүлэлт: Элеватор баазын тохиргоо ("Толгойт & Дархан" / "Өөрийн элеватор бааз")</span>
                   </div>
                 )}
+                {item.key === "about_badge" && (
+                  <div className="pt-2 pb-2 border-b border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-sky-400 font-bold text-xs">
+                    <div className="flex items-center gap-2">
+                      <Building2 className="w-4 h-4" />
+                      <span>"Бидний тухай" хэсгийн үндсэн гарчиг & Танилцуулга бичвэр</span>
+                    </div>
+                    <span className="text-[11px] font-normal text-slate-400">
+                      "Монголын Хүнс, Хөдөө Аж Ахуйн Салбарын Бөөний Түнш" болон PTS Agro Trade-ийн танилцуулга эхийг эндээс засна
+                    </span>
+                  </div>
+                )}
+                {item.key === "about_feat1_title" && (
+                  <div className="pt-6 pb-2 border-t border-slate-800 flex flex-col sm:flex-row sm:items-center justify-between gap-1 text-cyan-400 font-bold text-xs">
+                    <div className="flex items-center gap-2">
+                      <Sparkles className="w-4 h-4" />
+                      <span>4 гол давуу талын картуудын тохиргоо (Гарчиг ба дэлгэрэнгүй тайлбар)</span>
+                    </div>
+                    <span className="text-[11px] font-normal text-slate-400">
+                      Үйлдвэрүүдтэй гэрээ, элеватор бааз, лаборатори, ногоон гарцын картууд
+                    </span>
+                  </div>
+                )}
+                {item.key === "about_feat2_title" && (
+                  <div className="pt-3 pb-1 border-t border-slate-800/60 flex items-center gap-2 text-slate-400 font-bold text-xs">
+                    <span>2-р давуу тал: Өөрийн Зориулалтын Элеватор & Бааз</span>
+                  </div>
+                )}
+                {item.key === "about_feat3_title" && (
+                  <div className="pt-3 pb-1 border-t border-slate-800/60 flex items-center gap-2 text-slate-400 font-bold text-xs">
+                    <span>3-р давуу тал: 100% Лабораторийн Баталгаажилт</span>
+                  </div>
+                )}
+                {item.key === "about_feat4_title" && (
+                  <div className="pt-3 pb-1 border-t border-slate-800/60 flex items-center gap-2 text-slate-400 font-bold text-xs">
+                    <span>4-р давуу тал: Гаалийн Ногоон Гарц & Түргэн Бэлтгэл</span>
+                  </div>
+                )}
                 {item.key === "logistics_route_a_badge" && (
                   <div className="pt-4 pb-1 border-t border-slate-800 flex items-center gap-2 text-sky-400 font-bold text-xs">
                     <Truck className="w-4 h-4" />
